@@ -1,0 +1,42 @@
+{
+  "name": "aiml-unified-sdk",
+  "version": "0.1.0",
+  "description": "A unified SDK for AIML API focused on text inference models with math and reasoning capabilities",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc --watch",
+    "test": "jest",
+    "test:watch": "jest --watch",
+    "lint": "eslint src/**/*.ts",
+    "format": "prettier --write src/**/*.ts"
+  },
+  "keywords": [
+    "aiml",
+    "api",
+    "sdk",
+    "math",
+    "reasoning",
+    "typescript",
+    "ai",
+    "llm"
+  ],
+  "author": "AIML Unified SDK Team",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/jest": "^29.5.0",
+    "@types/node": "^20.0.0",
+    "@typescript-eslint/eslint-plugin": "^6.0.0",
+    "@typescript-eslint/parser": "^6.0.0",
+    "eslint": "^8.0.0",
+    "jest": "^29.5.0",
+    "prettier": "^3.0.0",
+    "ts-jest": "^29.1.0",
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "axios": "^1.6.0",
+    "zod": "^3.22.0"
+  }
+}
